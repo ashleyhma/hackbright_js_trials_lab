@@ -12,7 +12,7 @@ const phoneNumbers = new Map();
 
 // Add some phone numbers to our map
 
-function holder_num_name(accountHolder, accountNumber, businessName) {
+function holder_num_name(name, number, business) {
   console.log(`Account Holder Name: ${accountHolder}`);
   console.log(`Account Holder Number: ${accountNumber}`);
   console.log(`Business Name: ${businessName}`);
